@@ -1,0 +1,10 @@
+artifact_location: file:///Users/iashahba/Documents/ARTIFIN/FS26/SW2/Data and Code/mlruns/316585724729739867/models/m-b8ebc69702254d5e86d035781caef9c6/artifacts
+creation_timestamp: 1771598889082
+experiment_id: '316585724729739867'
+last_updated_timestamp: 1771598902217
+model_id: m-b8ebc69702254d5e86d035781caef9c6
+model_type: null
+name: model
+source_run_id: b95581e2809245eaa82d150db34deae6
+status: 2
+status_message: null

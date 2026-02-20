@@ -1,0 +1,15 @@
+creation_timestamp: 1771600035699
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1771600035699
+model_id: m-fc7d8cb1cca0403b9ddc8da51073ad85
+name: iris_randomforest_300
+run_id: d29cbad5e3a34727877dd2a8a3e82bd3
+run_link: null
+source: models:/m-fc7d8cb1cca0403b9ddc8da51073ad85
+status: READY
+status_message: null
+storage_location: file:///Users/iashahba/Documents/ARTIFIN/FS26/SW2/Data%20and%20Code/mlruns/455644135536071933/models/m-fc7d8cb1cca0403b9ddc8da51073ad85/artifacts
+user_id: null
+version: 1

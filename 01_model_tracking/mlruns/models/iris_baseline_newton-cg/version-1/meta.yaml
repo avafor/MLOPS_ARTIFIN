@@ -1,0 +1,15 @@
+creation_timestamp: 1771588175112
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1771588175112
+model_id: m-df96ac80bb95450d840d2dd367199899
+name: iris_baseline_newton-cg
+run_id: 869bdc381c48462ebda1a6fc7f9a2ca4
+run_link: null
+source: models:/m-df96ac80bb95450d840d2dd367199899
+status: READY
+status_message: null
+storage_location: file:///Users/iashahba/Documents/ARTIFIN/FS26/SW2/Data and Code/mlruns/316585724729739867/models/m-df96ac80bb95450d840d2dd367199899/artifacts
+user_id: null
+version: 1

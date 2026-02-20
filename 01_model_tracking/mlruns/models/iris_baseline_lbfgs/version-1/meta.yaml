@@ -1,0 +1,15 @@
+creation_timestamp: 1771588172923
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1771588172923
+model_id: m-8533c7a85ac64b78a7dc22d6b72f6ff5
+name: iris_baseline_lbfgs
+run_id: 44977f031a6e429599a3f972cadfe6ca
+run_link: null
+source: models:/m-8533c7a85ac64b78a7dc22d6b72f6ff5
+status: READY
+status_message: null
+storage_location: file:///Users/iashahba/Documents/ARTIFIN/FS26/SW2/Data and Code/mlruns/316585724729739867/models/m-8533c7a85ac64b78a7dc22d6b72f6ff5/artifacts
+user_id: null
+version: 1

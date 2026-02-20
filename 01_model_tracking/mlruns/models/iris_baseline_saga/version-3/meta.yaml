@@ -1,0 +1,15 @@
+creation_timestamp: 1771598476328
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1771598476328
+model_id: m-40a4380cead34c2686a98c22fc9256b1
+name: iris_baseline_saga
+run_id: b3d86306ec4c44f4b2d475ebb5364e1a
+run_link: null
+source: models:/m-40a4380cead34c2686a98c22fc9256b1
+status: READY
+status_message: null
+storage_location: file:///Users/iashahba/Documents/ARTIFIN/FS26/SW2/Data and Code/mlruns/316585724729739867/models/m-40a4380cead34c2686a98c22fc9256b1/artifacts
+user_id: null
+version: 3

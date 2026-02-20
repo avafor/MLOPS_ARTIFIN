@@ -1,0 +1,15 @@
+creation_timestamp: 1771598906897
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1771598906897
+model_id: m-9c500afcb8484ed69538595a84bab237
+name: iris_baseline_sag
+run_id: 347f8e53c55d4e688856cd42c051945c
+run_link: null
+source: models:/m-9c500afcb8484ed69538595a84bab237
+status: READY
+status_message: null
+storage_location: file:///Users/iashahba/Documents/ARTIFIN/FS26/SW2/Data and Code/mlruns/316585724729739867/models/m-9c500afcb8484ed69538595a84bab237/artifacts
+user_id: null
+version: 4

@@ -1,0 +1,23 @@
+artifact_path: file:///Users/iashahba/Documents/ARTIFIN/FS26/SW2/Data and Code/mlruns/316585724729739867/models/m-b72eacad5a6b4e5a9445017424e3ca7d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-b72eacad5a6b4e5a9445017424e3ca7d
+model_size_bytes: 855
+model_uuid: m-b72eacad5a6b4e5a9445017424e3ca7d
+prompts: null
+run_id: 4f97d5233d8846e5af15d40340f34541
+utc_time_created: '2026-02-20 14:48:22.383905'

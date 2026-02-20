@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/iashahba/Documents/ARTIFIN/FS26/SW2/Data%20and%20Code/mlruns/455644135536071933/8a062b825d664675b4f8bb69dee0c74c/artifacts
+end_time: 1771600033223
+entry_point_name: ''
+experiment_id: '455644135536071933'
+lifecycle_stage: active
+run_id: 8a062b825d664675b4f8bb69dee0c74c
+run_name: efficient-toad-288
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771600030791
+status: 3
+tags: []
+user_id: iashahba

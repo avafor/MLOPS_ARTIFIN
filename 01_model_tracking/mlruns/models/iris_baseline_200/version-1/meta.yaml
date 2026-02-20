@@ -1,0 +1,15 @@
+creation_timestamp: 1771600007896
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1771600007896
+model_id: m-c28ee6a33882473a8bde8a712adefbce
+name: iris_baseline_200
+run_id: e6e7181ca6de4ac38bae8985b42deb15
+run_link: null
+source: models:/m-c28ee6a33882473a8bde8a712adefbce
+status: READY
+status_message: null
+storage_location: file:///Users/iashahba/Documents/ARTIFIN/FS26/SW2/Data%20and%20Code/mlruns/455644135536071933/models/m-c28ee6a33882473a8bde8a712adefbce/artifacts
+user_id: null
+version: 1

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/iashahba/Documents/ARTIFIN/FS26/SW2/Data and Code/mlruns/316585724729739867/a375164f09da441dbd14770631df01e9/artifacts
+end_time: 1771588791826
+entry_point_name: ''
+experiment_id: '316585724729739867'
+lifecycle_stage: active
+run_id: a375164f09da441dbd14770631df01e9
+run_name: upset-penguin-997
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771588789539
+status: 3
+tags: []
+user_id: iashahba
