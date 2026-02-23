@@ -7,6 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+jupyter = "^1.1.1"
+ipykernel = "^7.2.0"
+uvicorn = "^0.41.0"
+mlflow = "^3.10.0"
+joblib = "^1.5.3"
+fastapi = "^0.129.0"
+pydantic = "^2.12.5"
+numpy = "^2.4.2"
 
 
 [build-system]
