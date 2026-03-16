@@ -4,3 +4,4 @@ __pycache__/
 # MLflow local runs
 mlruns/
 .venv/
+*.db
