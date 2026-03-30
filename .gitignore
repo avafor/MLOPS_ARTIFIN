@@ -5,4 +5,5 @@ __pycache__/
 mlruns/
 .venv/
 outputs/
+scaler.joblib
 *.db
