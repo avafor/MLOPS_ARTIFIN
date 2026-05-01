@@ -35,18 +35,16 @@ jobs:
     needs: ci
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
+    - name: Build Docker image
+      run: |
+        docker build \
+        -t ghcr.io/avafor/mlops_artifin/iris-predict-service:latest \
+        03_dockerization_and_deployment/webservices
 
-      - name: Build Docker image
-        run: |
-          docker build \
-            -t iris-predict-service:latest \
-            03_dockerization_and_deployment/webservices
-      - name: Push Docker image
-        run: |
-          docker push ghcr.io/avafor/mlops_artifin/iris-predict-service:latest      
+    - name: Push Docker image
+      run: |
+        docker push ghcr.io/avafor/mlops_artifin/iris-predict-service:latest      
 
 
-       # docker pull ghcr.io/avafor/MLOPS_ARTIFIN/iris-service:latest
-       # docker run -p 8000:8000 ghcr.io/avafor/MLOPS_ARTIFIN/iris-service:latest   
+          # docker pull ghcr.io/avafor/MLOPS_ARTIFIN/iris-service:latest
+          # docker run -p 8000:8000 ghcr.io/avafor/MLOPS_ARTIFIN/iris-service:latest   
