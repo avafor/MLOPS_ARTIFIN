@@ -45,4 +45,8 @@ jobs:
             03_dockerization_and_deployment/webservices
       - name: Push Docker image
         run: |
-          docker push ghcr.io/${{ github.repository }}/iris-service:latest      
+          docker push ghcr.io/avafor/mlops_artifin/iris-service:latest      
+
+
+       # docker pull ghcr.io/avafor/MLOPS_ARTIFIN/iris-service:latest
+       # docker run -p 8000:8000 ghcr.io/avafor/MLOPS_ARTIFIN/iris-service:latest   
