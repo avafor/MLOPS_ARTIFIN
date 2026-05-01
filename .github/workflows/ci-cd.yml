@@ -14,6 +14,7 @@ jobs:
     steps:
       - name: Show repo structure
         run: ls -R
+        
       - name: Checkout repository
         uses: actions/checkout@v6
 
@@ -37,6 +38,9 @@ jobs:
     needs: ci
 
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v6
+      
     - name: Build Docker image
       run: |
         docker build \
