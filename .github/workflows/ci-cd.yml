@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Show repo structure
+        run: ls -R
       - name: Checkout repository
         uses: actions/checkout@v6
 
