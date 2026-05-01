@@ -23,7 +23,7 @@ jobs:
       - name: Install project dependencies
         run: |
           pip install poetry
-          poetry install
+          poetry install --no-root
 
       - name: Check that Python files can be imported
         run: |
