@@ -1,0 +1,1 @@
+This is the repository for my ARTIFIN module at HSLU. The main purpose of this repository is to teach the concept of MLOps to the students using a very simple case study with the Iris dataset for the purpose of classification. 
