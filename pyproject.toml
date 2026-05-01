@@ -20,6 +20,9 @@ psycopg = {extras = ["binary"], version = "^3.3.3"}
 evidently = "^0.7.21"
 
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.3"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
