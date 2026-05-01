@@ -43,3 +43,6 @@ jobs:
           docker build \
             -t iris-predict-service:latest \
             03_dockerization_and_deployment/webservices
+      - name: Push Docker image
+        run: |
+          docker push ghcr.io/${{ github.repository }}/iris-service:latest      
