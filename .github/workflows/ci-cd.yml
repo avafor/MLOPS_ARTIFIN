@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Get the code from GitHub
+      - name: Checkout repository
         uses: actions/checkout@v6
 
       - name: Set up Python
@@ -20,22 +20,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install project dependencies
+      - name: Install dependencies
         run: |
           pip install poetry
           poetry install --no-root
 
-      - name: Check that Python files can be imported
+      - name: Run tests
         run: |
-          poetry run python -m py_compile 03_dockerization_and_deployment/webservices/predict.py
+          poetry run pytest 03_dockerization_and_deployment/webservices/test_prediction_core.py
 
   cd:
-    name: Continuous Delivery
+    name: Build Docker image
     runs-on: ubuntu-latest
     needs: ci
 
     steps:
-      - name: Get the code from GitHub
+      - name: Checkout repository
         uses: actions/checkout@v6
 
       - name: Build Docker image
