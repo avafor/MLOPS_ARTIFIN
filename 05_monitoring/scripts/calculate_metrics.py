@@ -23,7 +23,7 @@ def main():
     # compute simple drift metric
     drifted_features = 0
     for feature in FEATURES:
-        _, p_value = ks_2samp(reference[feature], current[feature]) # KS test for distribution difference 
+        _, p_value = ks_2samp(reference[feature], current[feature]) # KS test for distribution difference. what is ks_2samp? it is a function from scipy.stats that performs the Kolmogorov-Smirnov test for two samples. it returns the KS statistic and the p-value. we only care about the p-value here to determine if the distributions are significantly different, which would indicate drift in that feature.
         if p_value < 0.05: # if p-value is less than 0.05, we consider the feature to be drifted
             drifted_features += 1
 
@@ -31,6 +31,7 @@ def main():
 
     # compute model performance
     accuracy = accuracy_score(current["target"], current["prediction"])
+    print("ACCURACY:", accuracy)
     f1_macro = f1_score(current["target"], current["prediction"], average="macro") # why macro? because we have 3 classes and want to give equal weight to each class regardless of their frequency
 
     # compute prediction shares

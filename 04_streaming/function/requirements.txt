@@ -1,0 +1,8 @@
+mlflow
+google-cloud-pubsub
+google-cloud-storage
+scikit-learn
+pandas
+joblib
+gcsfs
+functions-framework

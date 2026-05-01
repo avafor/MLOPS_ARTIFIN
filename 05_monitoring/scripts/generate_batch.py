@@ -37,7 +37,7 @@ def main():
     # create one batch by sampling rows
     batch = X.copy()
     batch["target"] = y
-    batch = batch.sample(n=30, replace=True).reset_index(drop=True)
+    batch = batch.sample(n=30, replace=True).reset_index(drop=True) 
 
     # optional drift for demonstration
     batch["petal length (cm)"] = batch["petal length (cm)"] + 1.0
@@ -53,7 +53,7 @@ def main():
     batch.columns = CLEAN_FEATURES + ["target"]
     batch["prediction"] = predictions
 
-    batch_id = str(uuid.uuid4())[:8]
+    batch_id = str(uuid.uuid4())[:8] 
     batch.to_csv(f"data/current_batches/{batch_id}.csv", index=False)
 
     print(f"batch saved: {batch_id}.csv")
