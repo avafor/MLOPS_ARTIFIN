@@ -1,3 +1,7 @@
+import sys
+from zipfile import Path
+sys.path.append(str(Path(__file__).parent))
+
 def test_features_defined():
     import scripts.calculate_metrics as cm
     assert hasattr(cm, "FEATURES"), "FEATURES is not defined"
