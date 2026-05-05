@@ -34,7 +34,10 @@ jobs:
       - name: Run tests
         run: |
           poetry run pytest 03_dockerization_and_deployment/webservices/test_prediction_core.py
-
+      - name: Check Python syntax
+        run: |
+          poetry run python -m py_compile 03_dockerization_and_deployment/webservices/predict.py
+    
   cd:
     name: Build and Push Docker image
     runs-on: ubuntu-latest
