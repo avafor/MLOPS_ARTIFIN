@@ -37,6 +37,9 @@ jobs:
       - name: Check Python syntax
         run: |
           poetry run python -m py_compile 03_dockerization_and_deployment/webservices/predict.py
+      - name: Run tests for monitoring
+        run: |
+          poetry run pytest 05_monitoring/test/test_calculate_metrics.py    
     
   cd:
     name: Build and Push Docker image
